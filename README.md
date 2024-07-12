@@ -21,8 +21,7 @@ This project allows users to fetch their liked songs from Spotify and download t
 1. **Clone the repository:**
     
     ```bash
-    bashCopy code
-    git clone https://github.com/your-username/spotify-liked-songs-downloader.git
+    git clone <https://github.com/your-username/spotify-liked-songs-downloader.git>
     cd spotify-liked-songs-downloader
     
     ```
@@ -30,7 +29,6 @@ This project allows users to fetch their liked songs from Spotify and download t
 2. **Install required libraries:**
     
     ```bash
-    bashCopy code
     pip install spotipy yt-dlp
     
     ```
@@ -47,10 +45,9 @@ This project allows users to fetch their liked songs from Spotify and download t
 5. **Update the credentials in the script:**
     
     ```python
-    pythonCopy code
     SPOTIPY_CLIENT_ID = 'your-client-id'
     SPOTIPY_CLIENT_SECRET = 'your-client-secret'
-    SPOTIPY_REDIRECT_URI = 'http://localhost:8000/callback'
+    SPOTIPY_REDIRECT_URI = '<http://localhost:8000/callback>'
     
     ```
     
@@ -60,7 +57,6 @@ This project allows users to fetch their liked songs from Spotify and download t
 1. **Run the script:**
     
     ```bash
-    bashCopy code
     python main.py
     
     ```
@@ -96,7 +92,7 @@ The script includes basic error handling to manage issues that might arise durin
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](notion://www.notion.so/LICENSE) file for details.
+This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Contributing
 
