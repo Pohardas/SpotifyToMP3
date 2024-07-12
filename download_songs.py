@@ -4,9 +4,9 @@ from spotipy.oauth2 import SpotifyOAuth
 import yt_dlp as youtube_dl
 
 # Set your Spotify API credentials
-SPOTIPY_CLIENT_ID = '3315f701d23a425a9dc412eac4fe6b98'
-SPOTIPY_CLIENT_SECRET = 'f858197fd39d4135a3aab4f609f39359'
-SPOTIPY_REDIRECT_URI = 'http://localhost:8000/callback'
+SPOTIPY_CLIENT_ID = 'YOUR_SPOTIPY_CLIENT_ID'
+SPOTIPY_CLIENT_SECRET = 'YOUR_SPOTIPY_CLIENT_SECRET'
+SPOTIPY_REDIRECT_URI = 'YOUR_SPOTIPY_REDIRECT_URI'
 
 # Path to the cache file
 CACHE_FILE = ".cache"
